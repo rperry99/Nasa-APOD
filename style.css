@@ -22,6 +22,8 @@ body {
 
 /* Loader */
 .loader {
+  position: fixed;
+  z-index: 40;
   background: whitesmoke;
   height: 100vh;
   width: 100vw;
@@ -47,6 +49,17 @@ body {
   right: 0;
   width: 100%;
   height: 60px;
+  z-index: -1;
+}
+
+.clickable {
+  color: #0b3d91;
+  cursor: pointer;
+  user-select: none;
+}
+
+.clickable:hover {
+  color: #fc3d21;
 }
 
 /* Images Container */
