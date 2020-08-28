@@ -105,6 +105,7 @@ body {
   position: fixed;
   bottom: 25px;
   right: 50px;
+  z-index: 500;
 }
 
 /* Hidden */
